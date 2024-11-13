@@ -1,10 +1,7 @@
+import Product from "./product";
 import "./styles.css";
-import Product from "./Product";
+//import Product from "../product"
+import React from 'react';
 
 export default function App() {
-    return (
-     <div className="App">
-        <Product/>
-     </div>
-    );
 }
